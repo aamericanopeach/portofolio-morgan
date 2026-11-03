@@ -1,0 +1,87 @@
+media:
+  input: images
+  output: /images
+content:
+  - name: site
+    label: Isi Website
+    type: file
+    path: content/site.json
+    format: json
+    fields:
+      - { name: name, label: Nama, type: string }
+      - { name: role, label: Profesi / jabatan, type: string }
+      - { name: eyebrow, label: Sapaan kecil di atas judul, type: string }
+      - { name: headline, label: Judul utama, type: string }
+      - { name: highlight, label: Kata di judul yang dicetak miring (opsional), type: string }
+      - { name: intro, label: Pengantar singkat, type: text }
+      - { name: resume_url, label: Link CV / resume (kosongkan untuk menyembunyikan tombol), type: string }
+      - { name: available_text, label: Teks status tersedia (kosongkan untuk menyembunyikan), type: string }
+      - { name: portrait, label: Foto profil, type: image }
+      - { name: badge_number, label: Angka di lencana foto, type: string }
+      - { name: badge_label, label: Keterangan lencana, type: string }
+      - { name: about_title, label: Judul bagian Tentang, type: string }
+      - { name: about_text, label: Paragraf Tentang, type: text, list: true }
+      - { name: about_image_1, label: Foto Tentang 1, type: image }
+      - { name: about_image_2, label: Foto Tentang 2, type: image }
+      - { name: pills, label: Kata kunci keahlian, type: string, list: true }
+      - name: experience
+        label: Pengalaman kerja
+        type: object
+        list: true
+        fields:
+          - { name: years, label: Tahun, type: string }
+          - { name: title, label: Jabatan, type: string }
+          - { name: company, label: Perusahaan, type: string }
+          - { name: points, label: Poin pencapaian, type: string, list: true }
+      - name: projects
+        label: Proyek
+        type: object
+        list: true
+        fields:
+          - { name: category, label: Kategori, type: string }
+          - { name: title, label: Judul proyek, type: string }
+          - { name: summary, label: Ringkasan, type: string }
+          - { name: image, label: Foto proyek, type: image }
+          - { name: link, label: Link proyek (opsional), type: string }
+          - name: metrics
+            label: Angka hasil
+            type: object
+            list: true
+            fields:
+              - { name: value, label: Angka (contoh +72%), type: string }
+              - { name: label, label: Keterangan, type: string }
+          - { name: challenge, label: Tantangan, type: text }
+          - { name: strategy, label: Strategi, type: text }
+          - { name: results, label: Hasil, type: text }
+      - { name: skills, label: Daftar skill, type: string, list: true }
+      - name: tools
+        label: Tools
+        type: object
+        list: true
+        fields:
+          - { name: abbr, label: Singkatan 2 huruf, type: string }
+          - { name: name, label: Nama tool, type: string }
+      - name: stats
+        label: Angka pencapaian
+        type: object
+        list: true
+        fields:
+          - { name: number, label: Angka, type: string }
+          - { name: suffix, label: Akhiran (+ atau %), type: string }
+          - { name: label, label: Keterangan, type: string }
+      - name: education
+        label: Pendidikan
+        type: object
+        fields:
+          - { name: years, label: Tahun, type: string }
+          - { name: degree, label: Gelar / jurusan, type: string }
+          - { name: school, label: Institusi, type: string }
+      - { name: contact_title, label: Kalimat ajakan kontak, type: string }
+      - { name: email, label: Email, type: string }
+      - name: links
+        label: Link sosial media
+        type: object
+        list: true
+        fields:
+          - { name: label, label: Nama (contoh LinkedIn), type: string }
+          - { name: url, label: URL, type: string }
