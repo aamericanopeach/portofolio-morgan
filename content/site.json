@@ -1,0 +1,69 @@
+{
+  "name": "Alyssa Morgan",
+  "role": "Digital Marketing Specialist & Content Creator",
+  "eyebrow": "HELLO, I’M ALYSSA MORGAN",
+  "headline": "Building meaningful digital experiences through creative strategy.",
+  "highlight": "meaningful",
+  "intro": "I’m a digital marketing specialist and content creator who turns ideas into brands people remember, from social storytelling to data-informed campaigns.",
+  "resume_url": "",
+  "available_text": "Available for opportunities",
+  "portrait": "",
+  "badge_number": "5+",
+  "badge_label": "brands managed",
+  "about_title": "Stories first, then strategy.",
+  "about_text": [
+    "I studied marketing communication, but I fell in love with storytelling. Over the past few years I’ve helped small brands find their voice, grow their communities, and turn scrolling into connection.",
+    "I manage social platforms end to end, from strategy and content to reporting. I’m always curious about what’s next in digital trends, and I love solving creative problems where data and instinct meet."
+  ],
+  "about_image_1": "",
+  "about_image_2": "",
+  "pills": ["Storytelling", "Branding", "Social media"],
+  "experience": [
+    {"years": "2024–Present", "title": "Digital Marketing Specialist", "company": "Studio North",
+     "points": ["Lead multi-channel strategy across social, email and paid media.", "Grew combined social reach by 60% in 12 months.", "Cut cost per lead by 28% through creative testing."]},
+    {"years": "2022–2024", "title": "Social Media Executive", "company": "Bloom Creative Agency",
+     "points": ["Managed 5 brand accounts and a monthly calendar of 40+ posts.", "Raised average engagement rate from 2.1% to 4.8%.", "Launched an influencer program with 25 micro-creators."]},
+    {"years": "2021–2022", "title": "Marketing Intern", "company": "Pixel & Co.",
+     "points": ["Supported campaign research, copywriting and weekly reporting.", "Produced 30+ content pieces for blog and social.", "Helped grow the newsletter list by 18%."]}
+  ],
+  "projects": [
+    {"category": "Brand identity", "title": "Verde Café: a voice worth following", "summary": "Rebuilt voice, visuals and a 90-day content plan.", "image": "", "link": "",
+     "metrics": [{"value": "+72%", "label": "followers"}, {"value": "3.4×", "label": "engagement"}],
+     "challenge": "A neighbourhood café with great coffee and no consistent look online.",
+     "strategy": "A warm brand voice, a photo style guide and a 90-day content calendar built around daily rituals.",
+     "results": "Followers up 72% and engagement 3.4× in one quarter."},
+    {"category": "Instagram growth", "title": "Luma Skincare: Reels-led growth", "summary": "Reels-led growth with creator partnerships.", "image": "", "link": "",
+     "metrics": [{"value": "+48%", "label": "reach"}, {"value": "15K", "label": "new followers"}],
+     "challenge": "Strong products, but reach had plateaued.",
+     "strategy": "Weekly Reels, honest routine videos and partnerships with 12 creators.",
+     "results": "Reach up 48% and 15K new followers in four months."},
+    {"category": "TikTok content", "title": "Nomad Gear: trend-led short-form", "summary": "A trend-led short-form series for outdoor gear.", "image": "", "link": "",
+     "metrics": [{"value": "2.1M", "label": "views"}, {"value": "6.2%", "label": "engagement"}],
+     "challenge": "A new TikTok account with no audience.",
+     "strategy": "Three recurring formats that borrowed trending sounds while showing real product use.",
+     "results": "2.1M views and a 6.2% engagement rate."},
+    {"category": "Digital advertising", "title": "Atelier Home: ads that earn their spend", "summary": "Meta and Google ads with creative testing.", "image": "", "link": "",
+     "metrics": [{"value": "3.8×", "label": "ROAS"}, {"value": "−28%", "label": "CPA"}],
+     "challenge": "Rising acquisition costs on paid channels.",
+     "strategy": "Structured creative tests, tighter audiences and landing pages matched to each ad.",
+     "results": "Return on ad spend reached 3.8× while cost per acquisition fell 28%."}
+  ],
+  "skills": ["Social Media Management", "Content Strategy", "SEO", "Copywriting", "Digital Advertising", "Analytics & Reporting", "Influencer Marketing", "Brand Communication"],
+  "tools": [
+    {"abbr": "Cv", "name": "Canva"}, {"abbr": "Cc", "name": "CapCut"}, {"abbr": "Ps", "name": "Adobe Photoshop"},
+    {"abbr": "Mb", "name": "Meta Business Suite"}, {"abbr": "Ga", "name": "Google Analytics"}, {"abbr": "No", "name": "Notion"}
+  ],
+  "stats": [
+    {"number": "150", "suffix": "+", "label": "Content pieces created"},
+    {"number": "45", "suffix": "%", "label": "Average social media growth"},
+    {"number": "12", "suffix": "+", "label": "Successful campaigns"},
+    {"number": "5", "suffix": "+", "label": "Brands managed"}
+  ],
+  "education": {"years": "2018–2022", "degree": "Bachelor’s Degree in Marketing Communication", "school": "Westbridge University"},
+  "contact_title": "Have a project in mind? Let’s create something meaningful together.",
+  "email": "hello@alyssamorgan.com",
+  "links": [
+    {"label": "LinkedIn", "url": "https://linkedin.com/in/alyssamorgan"},
+    {"label": "Instagram", "url": "https://instagram.com/alyssamorgan.studio"}
+  ]
+}
